@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Nathan Julio, développeur web junior travaillant en front-end et back-end. Compétent en HTML, SCSS, Bootstrap, JavaScript, Symfony et MySQL.">
+    <meta name="keywords" content="portfolio développeur, développeur web, web developer, junior developer, développeur junior, portfolio web, front-end developer, back-end developer, développeur full stack, développement web, site web, programmation, HTML, CSS, JavaScript, Symfony, Bootstrap">
+    <meta name="author" content="Nathan JULIO">
+    <link rel="icon" type="image/png" href="img/nerdicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Nathan JULIO</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="mt-5">
+
+            <h1 class="text-center title me">Nathan JULIO</h1>
+            <h2 class="text-center mt-4">Web Developer</h2>
+
+            <div class="text-center">
+                <h3 id="email" class="mt-4 mb-4 email" onclick="copyEmail()">julio.nathan47@gmail.com</h3>
+            </div>
+
+            <section class="social w-15 m-auto d-flex justify-content-between">
+
+                <a class="social-img-container" href="https://github.com/nathkeuss" target="_blank" rel="noopener noreferrer">
+                    <img class="w-100 h-100 object-fit-cover" src="img/github.svg"
+                        alt="Logo Github pour accéder à mon github">
+                </a>
+
+                <a class="social-img-container" href="https://discord.gg/CRTJzMGU" target="_blank" rel="noopener noreferrer">
+                    <img class="w-100 h-100 object-fit-cover" src="img/discord.svg"
+                        alt="Logo Discord pour m'ajouter sur discord">
+                </a>
+
+                <a class="social-img-container" href="https://www.youtube.com/@keuss" target="_blank" rel="noopener noreferrer">
+                    <img class="w-100 h-100 object-fit-cover" src="img/youtube.svg"
+                        alt="Logo YouTube pour accéder à mon YouTube">
+                </a>
+
+                <a class="social-img-container" href="https://www.linkedin.com/in/nathan-julio/" target="_blank" rel="noopener noreferrer">
+                    <img class="w-100 h-100 object-fit-cover" src="img/linkedin.svg"
+                        alt="Logo LinkedIn pour accéder à mon LinkedIn">
+                </a>
+
+                <a class="social-img-container" href="img/CV_Dev_Nathan_JULIO.pdf" target="_blank" rel="noopener noreferrer">
+                    <img class="w-100 h-100 object-fit-cover" src="img/cv.svg" alt="Pour accéder à mon CV">
+                </a>
+
+            </section>
+
+        </div>
+
+    </header>
+
+    <main class="w-60 m-auto">
+
+        <p class="w-50 ps-2 pt-2 pb-2 mt-5 ps-lg-3 pt-lg-5 pb-lg-5 mt-lg-5">What motivates me in web development isn't just writing code, it's truly
+            understanding what I'm doing. Knowing why a line of code works, how it impacts performance, accessibility,
+            and user experience.</p>
+
+        <hr style="color: #2C382C; opacity: 70%;">
+
+        <section class="w-100">
+
+            <h2 class="text-center mt-5 title skills-projects">Skills</h2>
+
+            <div class="d-block d-lg-flex justify-content-around">
+
+                <div class="m-auto w-25">
+
+                    <h3 class="text-center mt-4 mb-5">Front</h3>
+
+                    <div class="d-flex justify-content-around">
+
+                        <div class="techno d-flex flex-column align-items-center">
+                            <div class="techno-img-container">
+                                <img class="w-100 h-100 object-fit-cover" src="img/bootstrap.svg" alt="Logo Bootstrap">
+                            </div>
+                            <p class="text-center mt-2 techno-name">Bootstrap</p>
+                        </div>
+
+                        <div class="techno d-flex flex-column align-items-center">
+                            <div class="techno-img-container">
+                                <img class="w-100 h-100 object-fit-cover" src="img/sass.svg" alt="Logo SASS">
+                                <p class="text-center mt-2 techno-name">Sass</p>
+                            </div>
+                        </div>
+
+                        <div class="techno d-flex flex-column align-items-center">
+                            <div class="techno-img-container">
+                                <img class="w-100 h-100 object-fit-cover" src="img/js.svg" alt="Logo JavaScript">
+                            </div>
+                            <p class="text-center mt-2 techno-name">JavaScript</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="m-auto w-25">
+
+                    <h3 class="text-center mt-lg-4 mb-5">Back</h3>
+
+                    <div class="d-flex justify-content-around">
+
+                        <div class="techno d-flex flex-column align-items-center">
+                            <div class="techno-img-container">
+                                <img class="w-100 h-100 object-fit-cover" src="img/symfony.svg" alt="Logo Symfony">
+                            </div>
+                            <p class="text-center mt-2 techno-name">Symfony</p>
+                        </div>
+
+                        <div class="techno d-flex flex-column align-items-center">
+                            <div class="techno-img-container">
+                                <img class="w-100 h-100 object-fit-cover" src="img/mysql.svg" alt="Logo MySQL">
+                            </div>
+                            <p class="text-center mt-2 techno-name">MySQL</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <hr style="color: #2C382C; opacity: 70%;" class="mt-lg-5">
+
+        <section>
+
+            <h2 class="text-center mt-5 mb-5 title skills-projects">Projects</h1>
+
+                <div class="row gx-0 justify-content-between mt-4">
+
+                    <div class="col-12 col-lg project-container">
+
+                        <div class="w-100 h-100">
+                            <img class="w-100 h-100 img-fluid object-fit-cover" src="img/GEONERDWebSite.png" alt="">
+                        </div>
+
+                        <div
+                            class="z-1 w-85 position-absolute bottom-0 start-50 translate-middle d-flex justify-content-between align-items-center">
+
+                            <span>GEONERD</span>
+
+                            <div class="d-flex w-25 justify-content-around position-relative">
+
+                                <a class="project-link" href="https://github.com/nathkeuss/GEONERD" target="_blank">
+                                    <img class="w-100 h-100 object-fit-cover" src="img/github.svg" alt="">
+                                </a>
+
+                                <a class="project-link">
+                                    <img class="w-100 h-100 object-fit-cover" src="img/externallink.svg" alt="">
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-info w-100 h-100 p-4">
+
+                            <div class="d-flex justify-content-between mt-2 mt-lg-4 mb-2 mb-lg-5">
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/bootstrap.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/sass.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/js.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/symfony.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/mysql.svg" alt="">
+                                </div>
+                            </div>
+
+                            <p>Répertorie des tutoriels par pays pour s'améliorer à <a class="text-decoration-none" href="https://www.geoguessr.com/fr" target="_blank">geoguessr</a> et
+                                propose un forum pour échanger avec la communauté.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg project-container mb-4 mt-4 mt-lg-0 mb-lg-0 ms-lg-4 me-lg-4">
+
+                        <div class="w-100 h-100">
+                            <img class="w-100 h-100 img-fluid object-fit-cover" src="img/GEONERDWebSite.png" alt="">
+                        </div>
+
+                        <div
+                            class="z-1 w-85 position-absolute bottom-0 start-50 translate-middle d-flex justify-content-between align-items-center">
+
+                            <span>GEONERD</span>
+
+                            <div class="d-flex w-25 justify-content-around position-relative">
+
+                                <a class="project-link" href="https://github.com/nathkeuss/GEONERD" target="_blank">
+                                    <img class="w-100 h-100 object-fit-cover" src="img/github.svg" alt="">
+                                </a>
+
+                                <a class="project-link">
+                                    <img class="w-100 h-100 object-fit-cover" src="img/externallink.svg" alt="">
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-info w-100 h-100 p-4">
+
+                            <div class="d-flex justify-content-between mt-4 mb-5">
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/bootstrap.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/sass.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/js.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/symfony.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/mysql.svg" alt="">
+                                </div>
+                            </div>
+
+                            <p>Répertorie des tutoriels par pays pour s'améliorer à <a class="text-decoration-none" href="https://www.geoguessr.com/fr" target="_blank">geoguessr</a> et
+                                propose un forum pour échanger avec la communauté.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg project-container">
+
+                        <div class="w-100 h-100">
+                            <img class="w-100 h-100 img-fluid object-fit-cover" src="img/GEONERDWebSite.png" alt="">
+                        </div>
+
+                        <div
+                            class="z-1 w-85 position-absolute bottom-0 start-50 translate-middle d-flex justify-content-between align-items-center">
+
+                            <span>GEONERD</span>
+
+                            <div class="d-flex w-25 justify-content-around position-relative">
+
+                                <a class="project-link" href="https://github.com/nathkeuss/GEONERD" target="_blank" rel="noopener noreferrer">
+                                    <img class="w-100 h-100 object-fit-cover" src="img/github.svg" alt="">
+                                </a>
+
+                                <a class="project-link">
+                                    <img class="w-100 h-100 object-fit-cover" src="img/externallink.svg" alt="">
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-info w-100 h-100 p-4">
+
+                            <div class="d-flex justify-content-between mt-4 mb-5">
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/bootstrap.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/sass.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/js.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/symfony.svg" alt="">
+                                </div>
+
+                                <div class="techno-used">
+                                    <img class="w-100 h-100" src="img/mysql.svg" alt="">
+                                </div>
+                            </div>
+
+                            <p>Répertorie des tutoriels par pays pour s'améliorer à <a class="text-decoration-none" href="https://www.geoguessr.com/fr" target="_blank">geoguessr</a> et
+                                propose un forum pour échanger avec la communauté.</p>
+
+                        </div>
+
+                    </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="social py-5 mt-5 w-15 m-auto d-flex justify-content-between">
+
+            <a class="social-img-container" href="https://github.com/nathkeuss" target="_blank" rel="noopener noreferrer">
+                <img class="w-100 h-100 object-fit-cover" src="img/github.svg"
+                    alt="Logo Github pour accéder à mon github">
+            </a>
+
+            <a class="social-img-container" href="https://discord.gg/CRTJzMGU" target="_blank" rel="noopener noreferrer">
+                <img class="w-100 h-100 object-fit-cover" src="img/discord.svg"
+                    alt="Logo Discord pour m'ajouter sur discord">
+            </a>
+
+            <a class="social-img-container" href="https://www.youtube.com/@keuss" target="_blank" rel="noopener noreferrer">
+                <img class="w-100 h-100 object-fit-cover" src="img/youtube.svg"
+                    alt="Logo YouTube pour accéder à mon YouTube">
+            </a>
+
+            <a class="social-img-container" href="https://www.linkedin.com/in/nathan-julio/" target="_blank" rel="noopener noreferrer">
+                <img class="w-100 h-100 object-fit-cover" src="img/linkedin.svg"
+                    alt="Logo LinkedIn pour accéder à mon LinkedIn">
+            </a>
+
+            <a class="social-img-container" href="img/CV_Dev_Nathan_JULIO.pdf" target="_blank" rel="noopener noreferrer">
+                <img class="w-100 h-100 object-fit-cover" src="img/cv.svg" alt="Pour accéder à mon CV">
+            </a>
+
+        </section>
+
+        <p class="text-end me-3">Designed and Developed by me.</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
