@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color !important;
+  color: white !important;
+  // background-image: url(../img/topography.svg);
+}
+
+p {
+  font-family: $font-family-proza;
+}
+
+p:nth-of-type(1) {
+    @include respond-to(phone) {
+      width: 100% !important;
+    }
+  }
+
+a {
+  font-family: $font-family-proza;
+  color: $primary-color !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-family-noto;
+}

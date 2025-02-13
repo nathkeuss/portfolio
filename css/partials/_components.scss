@@ -1,0 +1,98 @@
+.social-img-container {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  @include transition(transform, $transition-duration);
+
+  &:hover {
+    transform: scale($transition-scale);
+  }
+}
+
+.techno-img-container {
+  width: $techno-img-size;
+  height: $techno-img-size;
+
+  @include respond-to(phone) {
+    width: $techno-img-size-phone;
+    height: $techno-img-size-phone;
+  }
+}
+
+.techno {
+  @include transition(transform, 0.5s);
+
+  .techno-name {
+    opacity: 0;
+    @include transition(opacity, $transition-duration);
+  }
+
+  &:hover {
+    transform: scale($transition-scale);
+
+    .techno-name {
+      opacity: 1;
+    }
+  }
+}
+
+.project-container {
+  height: 300px;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  outline: solid 2px $border-color;
+  box-shadow: 0px 8px 0px $border-color;
+
+  &:nth-of-type(1) {
+    background-color: #20202A;
+  }
+  &:nth-of-type(2) {
+    background-color: #0F0F0F;
+  }
+}
+
+.project-info {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: rgba(0, 0, 1, 0.75);
+  @include transition(top, 0.4s);
+}
+
+.projet-description {
+  @include respond-to(phone) {
+    font-size: 0.9rem;
+  }
+}
+
+.in-development {
+  font-size: 1.8rem;
+  @include respond-to(phone) {
+    font-size: 1.2rem;
+  }
+}
+
+.project-container:hover .project-info {
+  top: 0;
+}
+
+.techno-used {
+  width: $techno-used-size;
+  height: $techno-used-size;
+
+  @include respond-to(phone) {
+    width: $techno-used-size-phone;
+    height: $techno-used-size-phone;
+  }
+}
+
+.project-link {
+  width: $project-link-size;
+  height: $project-link-size;
+  @include transition(transform, $transition-duration);
+
+  &:hover {
+    transform: scale($transition-scale);
+  }
+}

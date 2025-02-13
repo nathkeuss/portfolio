@@ -1,0 +1,13 @@
+// mixin pour les media queries
+@mixin respond-to($media) {
+  @if $media == phone {
+    @media screen and (max-width: $media-max-width) {
+      @content;
+    }
+  }
+}
+
+// mixin pour les transitions
+@mixin transition($property, $duration) {
+  transition: $property $duration;
+}

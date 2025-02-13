@@ -1,0 +1,40 @@
+.w-15 {
+  width: 15%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.social {
+  @include respond-to(phone) {
+    width: 60%;
+  }
+}
+
+.email {
+  cursor: pointer;
+  opacity: 70%;
+  font-size: 1rem;
+  display: inline-block;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.title {
+  color: $primary-color;
+}
+
+.me {
+  font-size: 48px;
+}
+
+.skills-projects {
+  font-size: 2rem;
+}
