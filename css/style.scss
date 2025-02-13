@@ -130,6 +130,10 @@ h3 {
     position: relative;
     outline: solid 2px #1A231A;
     box-shadow: 0px 8px 0px #1A231A;
+
+    &:nth-of-type(1) {
+        background-color: #20202A;
+    }
 }
 
 .project-info {
