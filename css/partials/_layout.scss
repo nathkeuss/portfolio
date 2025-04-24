@@ -2,12 +2,18 @@
   width: 15%;
 }
 
-.w-60 {
-  width: 60%;
-}
-
 .w-85 {
   width: 85%;
+}
+
+main {
+  width: 60%;
+  
+  @media screen and (max-width: $media-max-width) {
+    width: 85%;
+    
+  }
+
 }
 
 .social {
